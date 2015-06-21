@@ -37,24 +37,24 @@ The following files are available for the train and test data. Their description
 
 Transformation details
 
-   Merges the training and the test sets to create one data set.
-   Extracts only the measurements on the mean and standard deviation for each measurement.
-   Uses descriptive activity names to name the activities in the data set
-   Appropriately labels the data set with descriptive activity names.
-   Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+   -Merges the training and the test sets to create one data set.
+   -Extracts only the measurements on the mean and standard deviation for each measurement.
+   -Uses descriptive activity names to name the activities in the data set
+   -Appropriately labels the data set with descriptive activity names.
+   -Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
 ##Code Detail
 
-Code required below two library 
+-Code required below two library 
      data.table
      plyr
-Load the activity and feature leble data
-Load training and Test Data
-Than bind all test and training row
-combine all columns make single data set
-select Mean and SD columns
-add Descriptive activity name
-Lable descriptive variable name
-Create tidydata and saved in directory
+-Load the activity and feature leble data
+-Load training and Test Data
+-Than bind all test and training row
+-combine all columns make single data set
+-select Mean and SD columns
+-add Descriptive activity name
+-Lable descriptive variable name
+-Create tidydata and saved in directory
 
